@@ -26,7 +26,7 @@ int main() {
 				cout << "Enter String: ";
 				cin >> str;
                 cout << "Is Palindrome: " 
-                << (is_palindrome(str) ? "true" : false) << "\n";
+                << (is_palindrome(str) ? "true" : "false") << "\n";
 				break;
 			/*------------------------------------------------------------------
 				3) Exit Program
