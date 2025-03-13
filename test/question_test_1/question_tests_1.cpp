@@ -6,7 +6,13 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
-{
+TEST_CASE("test") {
 	REQUIRE(test_config() == true);
+}
+
+TEST_CASE("Test function is_palindrome") {
+	REQUIRE(is_palindrome("abcba") 	== true);
+	REQUIRE(is_palindrome("abc") 	== false);
+	REQUIRE(is_palindrome("hannah")	== true);
+	REQUIRE(is_palindrome("hanna") 	== false);
 }
