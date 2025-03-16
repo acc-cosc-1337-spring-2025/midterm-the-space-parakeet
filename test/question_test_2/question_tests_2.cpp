@@ -2,8 +2,6 @@
 #include "catch.hpp"
 #include "question2.h"
 
-using std::abs;
-
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
