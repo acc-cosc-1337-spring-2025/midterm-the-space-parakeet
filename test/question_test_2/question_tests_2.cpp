@@ -4,10 +4,6 @@
 
 using std::abs;
 
-bool rounded_equals(double num1, double num2, int precision) {
-	return (abs(num1 - num2) <= precision);
-}
-
 TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
@@ -17,6 +13,6 @@ TEST_CASE("test") {
 }
 
 TEST_CASE("Test function get_dna_p_distance") {
-	REQUIRE(rounded_equals(get_dna_p_distance("GAGCCTACTAACGGGAT", "CATCGTAATGACGGCCT", 0.4118)));
-	REQUIRE(rounded_equals(get_dna_p_distance("GAGCCTACTAACGGGAT", "GATCGTAATGACGGCCT", 0.3529)));
+	REQUIRE(get_rounded_answer(get_dna_p_distance("GAGCCTACTAACGGGAT", "CATCGTAATGACGGCCT"), 4) == "0.4118");
+	REQUIRE(get_rounded_answer(get_dna_p_distance("GAGCCTACTAACGGGAT", "GATCGTAATGACGGCCT"), 4) == "0.3529");
 }

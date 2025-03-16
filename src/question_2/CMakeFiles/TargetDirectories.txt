@@ -1,0 +1,4 @@
+/Users/spaceParakeet/ACC/2025.1_Spring/COSC_1337/midterm-the-space-parakeet/src/question_2/CMakeFiles/q_02_library.dir
+/Users/spaceParakeet/ACC/2025.1_Spring/COSC_1337/midterm-the-space-parakeet/src/question_2/CMakeFiles/q_02_exe.dir
+/Users/spaceParakeet/ACC/2025.1_Spring/COSC_1337/midterm-the-space-parakeet/src/question_2/CMakeFiles/edit_cache.dir
+/Users/spaceParakeet/ACC/2025.1_Spring/COSC_1337/midterm-the-space-parakeet/src/question_2/CMakeFiles/rebuild_cache.dir

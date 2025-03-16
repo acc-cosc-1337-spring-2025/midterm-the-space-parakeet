@@ -6,7 +6,12 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
-TEST_CASE("test")
-{
+TEST_CASE("test") {
 	REQUIRE(test_config() == true);
+}
+
+TEST_CASE("Test function get_gcd") {
+	REQUIRE(get_gcd(15, 25) == 5);
+	REQUIRE(get_gcd(16, 32) == 16);
+	REQUIRE(get_gcd(159, 309) == 3);
 }

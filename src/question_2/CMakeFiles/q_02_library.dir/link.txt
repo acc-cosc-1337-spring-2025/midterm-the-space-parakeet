@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libq_02_library.a CMakeFiles/q_02_library.dir/question2.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libq_02_library.a
